@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Time Example</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/my-element.ts"></script>
+    <script type="module" src="/src/relative-time.ts"></script>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>Relative Time Examples for locale = en</h1>
+        <relative-time
+          datetime="2022-07-28T19:44:28Z"
+          locales="en"
+        ></relative-time>
+        <hr />
+        <relative-time datetime="10/20/2015" locales="en"> </relative-time>
+        <hr />
+        <relative-time datetime="1690635832542" locales="en"> </relative-time>
+      </div>
+      <div>
+        <h1>Relative Time Examples for locale = es</h1>
+        <relative-time
+          datetime="2022-07-28T19:44:28Z"
+          locales="es"
+        ></relative-time>
+        <hr />
+        <relative-time datetime="10/20/2015" locales="es"> </relative-time>
+        <hr />
+        <relative-time datetime="1690635832542" locales="es"> </relative-time>
+      </div>
+    </section>
+  </body>
+</html>
