@@ -13,7 +13,7 @@ export class RelativeTime extends LitElement {
 
   rft!: Intl.RelativeTimeFormat;
 
-  @property({ type: String }) locales!: string;
+  @property({ type: String }) locales = 'en';
   @property({ type: String }) datetime!: string | Date | number;
 
   constructor() {
