@@ -33,14 +33,8 @@ export class RelativeTime extends LitElement {
     if (name == "locales" && this.locales !== value) {
       this.locales = value!;
     }
-
     if (name === "datetime") {
-      if (_old == null || value == null) {
-        return;
-      }
-      if (_old !== value) {
-        this.datetime = value!;
-      }
+      this.datetime = value!;
     }
   }
 
