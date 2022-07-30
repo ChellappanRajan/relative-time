@@ -1,6 +1,7 @@
 {
-  "name": "relative-time",
-  "private": true,
+  "name": "wc-relative-time",
+  "module":"wc-relative-time",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "main": "dist/my-element.es.js",
