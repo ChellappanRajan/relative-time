@@ -18,7 +18,6 @@ export class RelativeTime extends LitElement {
 
   constructor() {
     super();
-    console.log("Relative");
   }
 
   connectedCallback(): void {
@@ -31,20 +30,16 @@ export class RelativeTime extends LitElement {
     _old: string | null,
     value: string | null
   ): void {
-    console.log(name);
     if (name == "locales" && this.locales !== value) {
       this.locales = value!;
-      // this.createIntlRelativeFormat(value!);
-      // this.renderRelativeTime();
     }
 
     if (name === "datetime") {
-      this.datetime = value!;
       if (_old == null || value == null) {
         return;
       }
       if (_old !== value) {
-        //   this.renderRelativeTime();
+        this.datetime = value!;
       }
     }
   }
