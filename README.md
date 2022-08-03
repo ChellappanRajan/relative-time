@@ -18,24 +18,26 @@ To use a relative-time component in your code:
 
    In a JavaScript module:
    
-     `import './node_modules/wc-relative-time/dist/wc-relative-time.js'`;
+     import './node_modules/wc-relative-time/dist/wc-relative-time.js';
    
    In an HTML page:
    
-      ```
       <script type="module">
         import './node_modules/wc-relative-time/dist/wc-relative-time.js';     
       </script>
-      ```
+      
    ### Or:
 
       <script type="module" src="./path-to/some-package-name/some-component.js"></script>
       
       
- 3. Add the component to your application or component:
-```
-  <relative-time datetime="10/20/2015" locales="en"> </relative-time>
-  ```
+  Add the component to your application or component:
+ 
+
+      <relative-time datetime="10/20/2015" locales="en"> </relative-time>
+  
+
+
 
 
 ## Contributing
