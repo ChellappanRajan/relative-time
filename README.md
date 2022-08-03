@@ -50,4 +50,4 @@ To use a relative-time component in your code:
 
 ## Credits
 
- Credits to this [stackoverflow](https://stackoverflow.com/questions/6108819/javascript-timestamp-to-relative-time).
+ Credits goes to this [stackoverflow](https://stackoverflow.com/questions/6108819/javascript-timestamp-to-relative-time).
